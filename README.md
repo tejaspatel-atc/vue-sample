@@ -1,4 +1,25 @@
-# vue-sample
+# Books data Management Vue Project
+
+## Overview
+
+This Vue project is designed to provide book data management functionalities with a focus on security, flexibility, and maintainability. Below are the key features and design principles incorporated into the project.
+
+## Features
+
+### 1. Login
+- Authentication is implemented for user logins.
+
+### 2. User Verification
+- User status must be verified for successful login, ensuring a secure authentication process.
+
+### 3. Features
+- There are two roles Admin & User
+- Admin can add book details, update book details, delete books from the listing
+- User can show only book details
+- Search in listing
+- Without login can not access any page except the book listing
+
+## Getting Started
 
 ## Project setup
 
@@ -23,7 +44,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
